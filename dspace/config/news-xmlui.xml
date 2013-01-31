@@ -2,10 +2,11 @@
 <document xmlns="http://di.tamu.edu/DRI/1.0/" xmlns:i18n="http://apache.org/cocoon/i18n/2.1" version="1.1">
 <body>
 <div id="file.news.div.news" n="news" rend="primary">
-<head>DSpace Repository</head>
-<p>DSpace is a digital service that collects, preserves, and distributes digital material. Repositories are important tools for preserving an organization&apos;s legacy; they facilitate digital preservation and scholarly communication.</p>
-</div>
-</body>
+<head>OpenUCT Repository</head>
+<p>The UCT OpenContent directory is the web portal for accessing open teaching and learning content from UCT. Produced by the Open Educational Resources project in the Centre for Educational Technology at UCT with the support of the Shuttleworth Foundation, the directory aims to showcase the teaching efforts of UCT academics and encourage the publication of open resources.</p>
+<p><strong>What is open content?</strong> <a href='http://openuct.uct.ac.za/about-open-uct'>read more</a></p>
+
+</div></body>
 <options/>
 <meta>
 <userMeta/>

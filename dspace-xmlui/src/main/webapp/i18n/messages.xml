@@ -24,10 +24,10 @@
 		-->
 
 	<!-- General keys -->
-	<message key="xmlui.general.dspace_home">DSpace Home</message>
+	<message key="xmlui.general.dspace_home">OpenUCT Repository</message>
 	<message key="xmlui.general.search">Search</message>
 	<message key="xmlui.general.go">Go</message>
-	<message key="xmlui.general.go_home">Go to DSpace home</message>
+	<message key="xmlui.general.go_home">Go to Repository home</message>
 	<message key="xmlui.general.save">Save</message>
 	<message key="xmlui.general.cancel">Cancel</message>
 	<message key="xmlui.general.return">Return</message>
@@ -85,14 +85,14 @@
 
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_community">Search Results for Community: {0}</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_collection">Search Results for Collection: {0}</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_community">Search Results for Faculty: {0}</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_collection">Search Results for Department: {0}</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head1_none">Search Results</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.result_query">Your query "{0}" produced {1} result(s).</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.head2">Communities or Collections matching your query</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.head2">Faculties or Departments matching your query</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.head3">Items matching your query</message>
 	<message key="xmlui.ArtifactBrowser.AbstractSearch.no_results">Search produced no results.</message>
-	<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">All of DSpace</message>
+	<message key="xmlui.ArtifactBrowser.AbstractSearch.all_of_dspace">All of OpenUCT</message>
 
    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.title">title</message>
    <message key="xmlui.ArtifactBrowser.AbstractSearch.sort_by.dateissued">issue date</message>
@@ -166,6 +166,12 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.author.column_heading">Authors Name</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.subject.column_heading">Subject</message>
 
+
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.classification.column_heading">Audience Level</message>
+        <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.type.column_heading">Resource Type</message>
+
+
+
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.author">Browsing {0} by Author {1}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.author">Browsing {0} by Author</message>
 
@@ -181,11 +187,17 @@
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.item.dateaccessioned">Browsing {0} by Submit Date {1}</message>
 	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.item.dateaccessioned">Browsing {0} by Submit Date</message>
 
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.classification">Browsing {0} by Audience Level {1}</message>
+    	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.classification">Browsing {0} by Audience Level</message>
+
+
+	<message key="xmlui.ArtifactBrowser.ConfigurableBrowse.title.metadata.type">Browsing {0} by Resource Type {1}</message>
+        <message key="xmlui.ArtifactBrowser.ConfigurableBrowse.trail.metadata.type">Browsing {0} by Resource Type</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.search_scope">Search Scope</message>
-	<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">All of DSpace</message>
-	<message key="xmlui.ArtifactBrowser.CollectionViewer.full_text_search">Search within this collection:</message>
+	<message key="xmlui.ArtifactBrowser.CollectionViewer.all_of_dspace">All of OpenUCT</message>
+	<message key="xmlui.ArtifactBrowser.CollectionViewer.full_text_search">Search within this department:</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_browse">Browse by</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_titles">Titles</message>
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.browse_authors">Authors</message>
@@ -194,22 +206,22 @@
 	<message key="xmlui.ArtifactBrowser.CollectionViewer.head_recent_submissions">Recent Submissions</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
-	<message key="xmlui.ArtifactBrowser.CommunityBrowser.title">Community List</message>
-	<message key="xmlui.ArtifactBrowser.CommunityBrowser.trail">Community List</message>
-	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">Communities in DSpace</message>
-	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Select a community to browse its collections.</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.title">Faculty List</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.trail">Faculty List</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.head">Faculties in OpenUCT</message>
+	<message key="xmlui.ArtifactBrowser.CommunityBrowser.select">Select a faculty to browse its departments.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.search_scope">Search Scope</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">All of DSpace</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Search within this community and its collections:</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.all_of_dspace">All of OpenUCT</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.full_text_search">Search within this faculty and its departments:</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_browse">Browse by</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_titles">Titles</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_authors">Authors</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.browse_dates">Dates</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.advanced_search_link">Advanced Search</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_communities">Sub-communities within this community</message>
-	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_collections">Collections in this community</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_communities">Sub-faculties within this faculty</message>
+	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_sub_collections">Departments in this faculty</message>
 	<message key="xmlui.ArtifactBrowser.CommunityViewer.head_recent_submissions">Recent Submissions</message>
 
 
@@ -226,7 +238,7 @@
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.title">Give feedback</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.trail">Give feedback</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.head">Give feedback</message>
-	<message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Thanks for sharing your feedback about the DSpace system. Your comments are appreciated!</message>
+	<message key="xmlui.ArtifactBrowser.FeedbackForm.para1">Thanks for sharing your feedback about the OpenUCT Repository. Your comments are appreciated!</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.email">Your Email</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.email_help">This address will be used to follow up on your feedback.</message>
 	<message key="xmlui.ArtifactBrowser.FeedbackForm.comments">Comments</message>
@@ -240,27 +252,30 @@
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.FrontPageSearch.java -->
 	<message key="xmlui.ArtifactBrowser.FrontPageSearch.head">Search DSpace</message>
-	<message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">Enter some text in the box below to search DSpace.</message>
+	<message key="xmlui.ArtifactBrowser.FrontPageSearch.para1">Enter some text in the box below to search OpenUCT.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
 	<message key="xmlui.ArtifactBrowser.ItemViewer.trail">View Item</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">This item appears in the following Collection(s)</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">Show simple item record</message>
-	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">Show full item record</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.head_parent_collections">Departments:</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.show_simple">summary</message>
+	<message key="xmlui.ArtifactBrowser.ItemViewer.show_full">detailed</message>
 
         <message key="xmlui.ArtifactBrowser.ItemViewer.withdrawn">This item has been withdrawn and is no longer available.</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
 	<message key="xmlui.ArtifactBrowser.Navigation.head_browse">Browse</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">All of DSpace</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Communities &amp; Collections</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.head_all_of_dspace">All of OpenUCT</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.communities_and_collections">Faculties &amp; Departments</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_title">Titles</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_author">Authors</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_subject">Subjects</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateissued">By Issue Date</message>
 	<message key="xmlui.ArtifactBrowser.Navigation.browse_dateaccessioned">By Submit Date</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.head_this_collection">This Collection</message>
-	<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">This Community</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.head_this_collection">This Department</message>
+	<message key="xmlui.ArtifactBrowser.Navigation.head_this_community">This Faculty</message>
+
+	<message key="xmlui.ArtifactBrowser.Navigation.browse_type">Resource Type</message>
+        <message key="xmlui.ArtifactBrowser.Navigation.browse_classification">Audience Level</message>
 
 	<!-- org.dspace.app.xmlui.artifactbrowser.SimpleSearch.java -->
 	<message key="xmlui.ArtifactBrowser.SimpleSearch.title">Search</message>
@@ -273,8 +288,8 @@
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.title">This resource is restricted</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.trail">Restricted</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_resource">This resource is restricted</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_community">This community is restricted</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_collection">This collection is restricted</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_community">This faculty is restricted</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_collection">This department is restricted</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_item">This item is restricted</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.head_bitstream">This bitstream is restricted</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_resource">You do not have the credentials to access the restricted resource.</message>
@@ -282,8 +297,8 @@
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_collection">You do not have the credentials to access the restricted collection <b>{0}</b>.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_item">You do not have the credentials to access the restricted item <b>{0}</b>.</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.para_bitstream">You do not have the credentials to access the restricted bitstream <b>{0}</b>.</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_collection">collection</message>
-	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_community">community</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_collection">department</message>
+	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_community">faculty</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_bitstream">bitstream</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_item">item</message>
 	<message key="xmlui.ArtifactBrowser.RestrictedItem.type_resource">resource</message>
@@ -346,7 +361,7 @@
 	<message key="xmlui.EPerson.EditProfile.telephone">Contact Telephone</message>
         <message key="xmlui.EPerson.EditProfile.Language">Language</message>
 	<message key="xmlui.EPerson.EditProfile.subscriptions">Subscriptions</message>
-	<message key="xmlui.EPerson.EditProfile.subscriptions_help">You may subscribe to collections to receive daily e-mail alerts of new items added. You can subscribe to as many or as few collections as you wish. Another alternative to daily e-mail alerts is to use the RSS feeds available for all collections.</message>
+	<message key="xmlui.EPerson.EditProfile.subscriptions_help">You may subscribe to departments to receive daily e-mail alerts of new items added. You can subscribe to as many or as few departments as you wish. Another alternative to daily e-mail alerts is to use the RSS feeds available for all departments.</message>
 	<message key="xmlui.EPerson.EditProfile.email_subscriptions">Email Subscriptions</message>
 	<message key="xmlui.EPerson.EditProfile.select_collection">( Select Collection )</message>
 	<message key="xmlui.EPerson.EditProfile.update_password_instructions">Optionally, you can enter a new password in the box below, and confirm it by typing it again into the second box. It should be at least six characters long.</message>
@@ -383,16 +398,16 @@
 	<message key="xmlui.EPerson.InvalidToken.para2">If so, copy and paste the entire URL directly into your browser's address bar, rather than simply clicking on the link. The address bar should then contain something like:</message>
 
 	<!-- org.dspace.app.xmlui.eperson.Navigation.java -->
-	<message key="xmlui.EPerson.Navigation.my_account">My Account</message>
+	<message key="xmlui.EPerson.Navigation.my_account">Subscribers</message>
 	<message key="xmlui.EPerson.Navigation.profile">Profile</message>
 	<message key="xmlui.EPerson.Navigation.logout">Logout</message>
 	<message key="xmlui.EPerson.Navigation.login">Login</message>
-	<message key="xmlui.EPerson.Navigation.register">Register</message>
+	<message key="xmlui.EPerson.Navigation.register">Subscribe</message>
 
 	<!-- org.dspace.app.xmlui.eperson.PasswordLogin.java -->
 	<message key="xmlui.EPerson.PasswordLogin.title">Sign in</message>
 	<message key="xmlui.EPerson.PasswordLogin.trail">Sign in</message>
-	<message key="xmlui.EPerson.PasswordLogin.head1">Sign in to DSpace</message>
+	<message key="xmlui.EPerson.PasswordLogin.head1">Sign in to OpenUCT</message>
 	<message key="xmlui.EPerson.PasswordLogin.title">Sign in</message>
 	<message key="xmlui.EPerson.PasswordLogin.email_address">E-Mail Address</message>
 	<message key="xmlui.EPerson.PasswordLogin.error_bad_login">The email address and/or password supplied were not valid.</message>
@@ -400,13 +415,13 @@
 	<message key="xmlui.EPerson.PasswordLogin.forgot_link"> Forgot your password?</message>
 	<message key="xmlui.EPerson.PasswordLogin.submit">Sign in</message>
 	<message key="xmlui.EPerson.PasswordLogin.head2">Register new user</message>
-	<message key="xmlui.EPerson.PasswordLogin.para1">Register an account to subscribe to collections for email updates, and submit new items to DSpace.</message>
+	<message key="xmlui.EPerson.PasswordLogin.para1">Register an account to subscribe to department content for email updates, and submit new items to OpenUCT.</message>
 	<message key="xmlui.EPerson.PasswordLogin.register_link">Click here to register.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
 	<message key="xmlui.EPerson.LDAPLogin.title">Sign in</message>
 	<message key="xmlui.EPerson.LDAPLogin.trail">Sign in</message>
-	<message key="xmlui.EPerson.LDAPLogin.head1">Sign in to DSpace</message>
+	<message key="xmlui.EPerson.LDAPLogin.head1">Sign in to OpenUCT</message>
 	<message key="xmlui.EPerson.LDAPLogin.title">Sign in</message>
 	<message key="xmlui.EPerson.LDAPLogin.username">User Name</message>
 	<message key="xmlui.EPerson.LDAPLogin.error_bad_login">The user name and/or password supplied were not valid.</message>
@@ -446,7 +461,7 @@
 	<!-- org.dspace.app.xmlui.eperson.RegistrationFinished.java -->
 	<message key="xmlui.EPerson.RegistrationFinished.title">Registration finished</message>
 	<message key="xmlui.EPerson.RegistrationFinished.head">Registration Finished</message>
-	<message key="xmlui.EPerson.RegistrationFinished.para1">You're now registered to use the DSpace system.  You can subscribe to collections to receive email updates about new items.</message>
+	<message key="xmlui.EPerson.RegistrationFinished.para1">You're now registered to use the OpenUCT repository.  You can subscribe to collections to receive email updates about new items.</message>
 
 	<!-- org.dspace.app.xmlui.eperson.ResetPassword.java -->
 	<message key="xmlui.EPerson.ResetPassword.title">Reset password</message>
@@ -462,7 +477,7 @@
 	<!-- org.dspace.app.xmlui.eperson.StartForgotPassword.java -->
 	<message key="xmlui.EPerson.StartForgotPassword.title">Forgot Password</message>
 	<message key="xmlui.EPerson.StartForgotPassword.head">Forgot Password</message>
-	<message key="xmlui.EPerson.StartForgotPassword.para1">Enter the email address you provided when you registered with DSpace. An email will be sent to that address with further instructions.</message>
+	<message key="xmlui.EPerson.StartForgotPassword.para1">Enter the email address you provided when you registered with the repository. An email will be sent to that address with further instructions.</message>
 	<message key="xmlui.EPerson.StartForgotPassword.email_address">Email Address</message>
 	<message key="xmlui.EPerson.StartForgotPassword.email_address_help">Enter the same address used when registering.</message>
 	<message key="xmlui.EPerson.StartForgotPassword.error_not_found">Email address not found.</message>
@@ -504,8 +519,8 @@
 
 
 	<!-- general submission aspect messages -->
-	<message key="xmlui.Submission.general.mydspace_home">MyDSpace Home</message>
-	<message key="xmlui.Submission.general.go_mydspace">Go to MyDSpace Home</message>
+	<message key="xmlui.Submission.general.mydspace_home">MyOpenUCT Home</message>
+	<message key="xmlui.Submission.general.go_mydspace">Go to MyOpenUCT Home</message>
 	<message key="xmlui.Submission.general.submission.title">Item submission</message>
 	<message key="xmlui.Submission.general.submission.trail">Item submission</message>
 	<message key="xmlui.Submission.general.submission.head">Item submission</message>
@@ -522,7 +537,7 @@
 	<message key="xmlui.Submission.general.default.trail">Submission</message>
 
 	<!-- org.dspace.app.xmlui.submission.CollectiovViewer -->
-	<message key="xmlui.Submission.CollectionViewer.link1">Submit a new item to this collection</message>
+	<message key="xmlui.Submission.CollectionViewer.link1">Submit a new item to this department</message>
 
 	<!-- org.dspace.app.xmlui.submission.Navigation -->
 	<message key="xmlui.Submission.Navigation.submissions">Submissions</message>
@@ -552,7 +567,7 @@
 	<message key="xmlui.Submission.Submissions.submit_head1">Submissions</message>
 	<message key="xmlui.Submission.Submissions.submit_info1a">You may </message>
 	<message key="xmlui.Submission.Submissions.submit_info1b">start a new submission.</message>
-	<message key="xmlui.Submission.Submissions.submit_info1c">The submission process includes describing the item and uploading the file(s) comprising it. Each community or collection may set its own submission policy.</message>
+	<message key="xmlui.Submission.Submissions.submit_info1c">The submission process includes describing the item and uploading the file(s) comprising it. Each faculty or department may set its own submission policy.</message>
 	<message key="xmlui.Submission.Submissions.submit_head2">Unfinished submissions</message>
 	<message key="xmlui.Submission.Submissions.submit_info2a">These are incomplete item submissions. You may also </message>
 	<message key="xmlui.Submission.Submissions.submit_info2b">start another submission</message>
@@ -605,10 +620,10 @@
 	<message key="xmlui.Submission.submit.ResumeStep.submit_resume">Resume</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.SelectCollection -->
-	<message key="xmlui.Submission.submit.SelectCollection.head">Select a collection</message>
-	<message key="xmlui.Submission.submit.SelectCollection.collection">Collection</message>
-	<message key="xmlui.Submission.submit.SelectCollection.collection_help">Select the collection you wish to submit an item to.</message>
-	<message key="xmlui.Submission.submit.SelectCollection.collection_default">Select a collection...</message>
+	<message key="xmlui.Submission.submit.SelectCollection.head">Select a department</message>
+	<message key="xmlui.Submission.submit.SelectCollection.collection">Department</message>
+	<message key="xmlui.Submission.submit.SelectCollection.collection_help">Select the department you wish to submit an item to.</message>
+	<message key="xmlui.Submission.submit.SelectCollection.collection_default">Select a department...</message>
 
 	<!-- org.dspace.app.xmlui.Submission.submit.SaveOrRemoveStep -->
 	<message key="xmlui.Submission.submit.SaveOrRemoveStep.head">Save or cancel your submission?</message>
@@ -880,15 +895,15 @@
 	<!-- contextual menu items -->
 	<message key="xmlui.administrative.Navigation.context_head">Context</message>
 	<message key="xmlui.administrative.Navigation.context_edit_item">Edit this item</message>
-	<message key="xmlui.administrative.Navigation.context_edit_collection">Edit Collection</message>
+	<message key="xmlui.administrative.Navigation.context_edit_collection">Edit Department</message>
 	<message key="xmlui.administrative.Navigation.context_item_mapper">Item Mapper</message>
-	<message key="xmlui.administrative.Navigation.context_edit_community">Edit Community</message>
-	<message key="xmlui.administrative.Navigation.context_create_collection">Create Collection</message>
-	<message key="xmlui.administrative.Navigation.context_create_subcommunity">Create Sub-community</message>
-	<message key="xmlui.administrative.Navigation.context_create_community">Create Community</message>
+	<message key="xmlui.administrative.Navigation.context_edit_community">Edit Faculty</message>
+	<message key="xmlui.administrative.Navigation.context_create_collection">Create Department</message>
+	<message key="xmlui.administrative.Navigation.context_create_subcommunity">Create Sub-faculty</message>
+	<message key="xmlui.administrative.Navigation.context_create_community">Create Faculty</message>
 	<message key="xmlui.administrative.Navigation.context_export_item">Export Item</message>
-        <message key="xmlui.administrative.Navigation.context_export_collection">Export Collection</message>
-        <message key="xmlui.administrative.Navigation.context_export_community">Export Community</message>
+        <message key="xmlui.administrative.Navigation.context_export_collection">Export Department</message>
+        <message key="xmlui.administrative.Navigation.context_export_community">Export Faculty</message>
         <message key="xmlui.administrative.Navigation.context_export_metadata">Export Metadata</message>
 
 	<!-- Site administrator options -->
@@ -1018,7 +1033,7 @@
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column2">ID</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column3">Name</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.search_column4">Members</message>
-	<message key="xmlui.administrative.group.ManageGroupsMain.search_column5">Community / Collection</message>
+	<message key="xmlui.administrative.group.ManageGroupsMain.search_column5">Faculty / Department</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.collection_link">View</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.submit_delete">Delete groups</message>
 	<message key="xmlui.administrative.group.ManageGroupsMain.no_results">Your search found no results...</message>
@@ -1724,7 +1739,7 @@
 	<message key="xmlui.administrative.ControlPanel.harvest_head_harvester_settings">Harvester Settings</message>
 
 	<!-- General tags for community management -->
-	<message key="xmlui.administrative.community.general.community_trail">Communities</message>
+	<message key="xmlui.administrative.community.general.community_trail">Faculties</message>
 	<message key="xmlui.administrative.community.general.options_metadata">Edit Metadata</message>
 	<message key="xmlui.administrative.community.general.options_roles">Assign Roles</message>
         <message key="xmlui.administrative.community.general.options_curate">Curate</message>
@@ -1998,10 +2013,10 @@
 	<message key="xmlui.dri2xhtml.structural.logout">Logout</message>
 	<message key="xmlui.dri2xhtml.structural.login">Login</message>
 
-	<message key="xmlui.dri2xhtml.structural.search">Search DSpace</message>
+	<message key="xmlui.dri2xhtml.structural.search">Search OpenUCT</message>
 	<message key="xmlui.dri2xhtml.structural.search-advanced">Advanced Search</message>
-	<message key="xmlui.dri2xhtml.structural.search-in-community">This Community</message>
-	<message key="xmlui.dri2xhtml.structural.search-in-collection">This Collection</message>
+	<message key="xmlui.dri2xhtml.structural.search-in-community">This Faculty</message>
+	<message key="xmlui.dri2xhtml.structural.search-in-collection">This Department</message>
 
 	<message key="xmlui.dri2xhtml.structural.pagination-previous">Previous Page</message>
 	<message key="xmlui.dri2xhtml.structural.pagination-info">Now showing items {0}-{1} of {2}</message>
